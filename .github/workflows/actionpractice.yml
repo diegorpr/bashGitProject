@@ -9,6 +9,8 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+  fork:
+    branches:  [ "master" ]
 on:
   schedule:
   - cron: "0 8 * * 1"
